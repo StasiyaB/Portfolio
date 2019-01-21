@@ -13,15 +13,20 @@ html {
   max-width: 1100px;
   margin: auto;
   padding: 120px 40px; }
+  .container h3 {
+    font-weight: lighter;
+    color: #A2B7BF;
+    text-align: center;
+    padding-bottom: 2em; }
 
 body {
   font-family: "Cuprum", sans-serif;
   color: #FFFCF3;
   font-size: 18px;
   background-color: #504746; }
-  body h1,
-  body h2,
-  body h3 {
+  body h1 {
+    font-family: "Lobster";
+    font-weight: lighter;
     color: #EDC1CC; }
   body h1 {
     font-size: 40px;
@@ -45,11 +50,15 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 40px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2); }
-  .flex-header .img-transform img {
-    transition: all 2s; }
-  .flex-header .img-transform:hover img {
-    transform: scale(1.5); }
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  /*.img-transform img {
+    transition: all 2s;
+  }
+  .img-transform:hover img {
+
+    transform: scale(1.5);
+  }
+*/ }
   .flex-header .h-transform {
     transition: all 2s; }
   .flex-header .h-transform:hover {
@@ -84,6 +93,8 @@ body {
       display: block;
       line-height: 3em;
       color: #EDC1CC; }
+    .flex-header nav a .fas:hover {
+      color: #A2B7BF; }
     .flex-header nav:hover a {
       opacity: 0.3; }
     .flex-header nav a:hover {
@@ -102,10 +113,11 @@ main .flex-list {
   justify-content: space-between;
   padding-left: 0; }
   main .flex-list li {
-    width: 17%;
     list-style: none; }
     main .flex-list li svg {
       display: block; }
+  main .flex-list .tooltip-text {
+    text-align: center; }
 
 /* ********************************************************************
 *************************** FOOTER *************************************
@@ -176,8 +188,7 @@ footer {
     flex-direction: column;
     align-items: center; }
     .flex-list li {
-      margin-bottom: 20px;
-      width: 100%; }
+      margin-bottom: 20px; }
 
   footer {
     margin: 20px;
@@ -190,6 +201,11 @@ footer {
       padding-bottom: 0; }
       footer .flex-footer div {
         margin-bottom: 1.5em; } }
+.flex-header nav ol li:nth-child(3) a {
+  color: #A2B7BF; }
+  .flex-header nav ol li:nth-child(3) a .fas {
+    color: #A2B7BF; }
+
 form fieldset {
   padding: 40px;
   border-color: #EDC1CC;

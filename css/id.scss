@@ -1,7 +1,16 @@
 @import "index.scss";
 
 .flex-header {
+  flex-direction: row-reverse;
   img {
     border-radius: 20px;
+  }
+  nav ol li:nth-child(1) {
+    a {
+      color: $blue;
+      .fas {
+        color: $blue;
+      }
+    }
   }
 }

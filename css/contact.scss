@@ -1,5 +1,16 @@
 @import "index.scss";
 
+.flex-header {
+  nav ol li:nth-child(3) {
+    a {
+      color: $blue;
+      .fas {
+        color: $blue;
+      }
+    }
+  }
+}
+
 form {
 
   fieldset {
