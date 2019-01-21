@@ -24,8 +24,9 @@ body {
   color: #FFFCF3;
   font-size: 18px;
   background-color: #504746; }
-  body h1,
-  body h2 {
+  body h1 {
+    font-family: "Lobster";
+    font-weight: lighter;
     color: #EDC1CC; }
   body h1 {
     font-size: 40px;

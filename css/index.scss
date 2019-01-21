@@ -47,8 +47,9 @@ body {
   background-color: $broun;
 
   h1,
-  h2 {
-    //font-family: $fontHeader;
+  /*h2*/ {
+    font-family: $fontHeader;
+		font-weight: lighter;
     color: $pink;
   }
 
@@ -148,7 +149,7 @@ body {
     .list-transform li a:hover {
       color: $blue;
       transform: translateY(20px);
-    }
+    }		
     }
 }
 /* *******************************************************************
