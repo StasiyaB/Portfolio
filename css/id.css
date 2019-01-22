@@ -67,11 +67,9 @@ body {
     color: #A2B7BF; }
   .flex-header div {
     width: 30%; }
-    .flex-header div a {
-      margin-left: 112px; }
     .flex-header div img {
       width: 45%;
-      text-align: center; }
+      margin-left: 90px; }
   .flex-header nav {
     width: 30%;
     font-size: 20px; }
@@ -139,7 +137,7 @@ footer {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 1.5em; }
-  footer .icone-transform .fab:hover {
+  footer .icon-transform .fab:hover {
     animation: bounce 1s infinite alternate; }
 @keyframes bounce {
   0% {
@@ -147,13 +145,11 @@ footer {
   100% {
     transform: translate(0); } }
 /* ********************* PAD ********************** */
-@media screen and (min-width: 480px) and (max-width: 960px) {
+@media screen and (max-width: 1366px) and (min-width: 480px) {
   .flex-header {
     flex-wrap: wrap; }
     .flex-header div {
       width: 50%; }
-      .flex-header div a {
-        margin-left: 48px; }
       .flex-header div h2 {
         color: #A2B7BF; }
     .flex-header nav {
@@ -172,8 +168,9 @@ footer {
     flex-direction: column; }
     .flex-header div {
       width: 100%; }
-      .flex-header div a {
-        margin-left: 99px; }
+      .flex-header div a img {
+        margin-left: 26%;
+        margin-right: 26%; }
       .flex-header div h2 {
         color: #A2B7BF; }
     .flex-header nav {

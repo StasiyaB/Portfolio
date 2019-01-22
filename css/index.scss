@@ -100,12 +100,10 @@ body {
 
   div {
     width: 30%;
-    a {
-      margin-left: 112px;
-    }
+
     img {
       width: 45%;
-      text-align: center;
+			margin-left: 90px;
     }
   }
   nav {
@@ -153,7 +151,7 @@ body {
     .list-transform li a:hover {
       color: $blue;
       transform: translateY(20px);
-    }		
+    }
   }
 }
 /* *******************************************************************
@@ -218,14 +216,12 @@ footer {
   }
 }
 /* ********************* PAD ********************** */
-@media screen and (min-width: 480px) and (max-width: 960px) {
+@media screen and (max-width: 1366px) and (min-width: 480px) {
   .flex-header {
     flex-wrap: wrap;
     div {
       width: 50%;
-      a {
-        margin-left: 48px;
-      }
+      
       h2 {
         color: $blue;
       }
@@ -254,9 +250,10 @@ footer {
     div {
       width: 100%;
 
-      a {
-        margin-left: 99px;
-      }
+			a img {
+				margin-left: 26%;
+				margin-right: 26%;
+			}
 
       h2 {
         color: $blue;
