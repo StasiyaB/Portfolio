@@ -199,7 +199,7 @@ footer {
 
   p:nth-child(1) {
     //text-transform: uppercase;
-    font-family: cursive;
+    font-style: italic;
     color: $pink;
     text-align: center;
   }
@@ -217,7 +217,7 @@ footer {
     padding-bottom: 1.5em;
   }
 
-  .icone-transform .fab:hover {
+  .icon-transform .fab:hover {
     animation: bounce 1s infinite alternate;
   }
   @keyframes bounce {

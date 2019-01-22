@@ -126,7 +126,7 @@ footer {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
   padding: 20px; }
   footer p:nth-child(1) {
-    font-family: cursive;
+    font-style: italic;
     color: #EDC1CC;
     text-align: center; }
   footer a {
@@ -201,13 +201,11 @@ footer {
       padding-bottom: 0; }
       footer .flex-footer div {
         margin-bottom: 1.5em; } }
-.flex-header {
-  flex-direction: row-reverse; }
-  .flex-header img {
-    border-radius: 20px; }
-  .flex-header nav ol li:nth-child(1) a {
+.flex-header img {
+  border-radius: 20px; }
+.flex-header nav ol li:nth-child(1) a {
+  color: #A2B7BF; }
+  .flex-header nav ol li:nth-child(1) a .fas {
     color: #A2B7BF; }
-    .flex-header nav ol li:nth-child(1) a .fas {
-      color: #A2B7BF; }
 
 /*# sourceMappingURL=id.css.map */
