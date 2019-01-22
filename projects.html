@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width"/>
     <link rel="icon" type="image/png" href="img/logo-fox.png" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/projects.css">
     <link href="https://fonts.googleapis.com/css?family=Cuprum|Lobster" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/projects.css">
     <title>Anastasiya Baryash - Projects</title>
   </head>
   <body>
@@ -29,10 +30,22 @@
       </nav>
     </header>
 <!-- ------------------------------ MAIN ----------------------------- -->
-    <main>
-      <div class="container">
+    <main class="container">
 
-      </div>
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <img src="img/slider/01-Cup-of-Tea.png" />
+            </li>
+            <li>
+              <img src="img/slider/02-Wolf-Gang.png" />
+            </li>
+            <li>
+              <img src="img/slider/03-Carrousel.png" />
+            </li>                       
+          </ul>
+        </div>
+
     </main>
 <!-- ------------------------------ FOOTER ----------------------------- -->
     <footer>
@@ -54,5 +67,12 @@
         © StasiyaB, 2019
       </p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider();
+      });
+    </script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 $fontText: 'Cuprum', sans-serif;
-$fontHeader: 'Lobster';
+$fontHeader: 'Lobster', cursive;
 $texteSize: 18px;
 $navSize: 20px;
 $h1Size: 40px;
@@ -221,7 +221,7 @@ footer {
     flex-wrap: wrap;
     div {
       width: 50%;
-      
+
       h2 {
         color: $blue;
       }
