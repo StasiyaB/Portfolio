@@ -139,7 +139,7 @@ footer {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 1.5em; }
-  footer .icone-transform .fab:hover {
+  footer .icon-transform .fab:hover {
     animation: bounce 1s infinite alternate; }
 @keyframes bounce {
   0% {
