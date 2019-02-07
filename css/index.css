@@ -60,7 +60,10 @@ body {
   }
 */ }
   .flex-header .h-transform {
-    transition: all 2s; }
+    transition: all 2s;
+    text-decoration: none; }
+    .flex-header .h-transform h2 {
+      color: #A2B7BF; }
   .flex-header .h-transform:hover {
     transform: scale(1.5); }
   .flex-header .h-transform h2:hover {
