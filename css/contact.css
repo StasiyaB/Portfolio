@@ -25,7 +25,7 @@ body {
   font-size: 18px;
   background-color: #504746; }
   body h1 {
-    font-family: "Lobster";
+    font-family: "Lobster", cursive;
     font-weight: lighter;
     color: #EDC1CC; }
   body h1 {
@@ -60,7 +60,10 @@ body {
   }
 */ }
   .flex-header .h-transform {
-    transition: all 2s; }
+    transition: all 2s;
+    text-decoration: none; }
+    .flex-header .h-transform h2 {
+      color: #A2B7BF; }
   .flex-header .h-transform:hover {
     transform: scale(1.5); }
   .flex-header .h-transform h2:hover {
@@ -217,17 +220,20 @@ form .form-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
-  form .form-flex input {
+  form .form-flex input,
+  form .form-flex textarea {
     margin: 20px;
     padding: 20px;
     color: white;
     background-color: #EDC1CC;
     border: none; }
-  form .form-flex .name {
+  form .form-flex #FirstName {
     width: 45%; }
-  form .form-flex .mail {
+  form .form-flex #LastName {
     width: 45%; }
-  form .form-flex .message {
+  form .form-flex #mail {
+    width: 100%; }
+  form .form-flex #message {
     width: 100%; }
 form .button {
   text-align: center;
@@ -247,9 +253,9 @@ form .button {
 
 /* ********************* PAD ********************** */
 @media screen and (max-width: 1366px) and (min-width: 480px) {
-  form .form-flex .name {
+  form .form-flex #FirstName {
     width: 100%; }
-  form .form-flex .mail {
+  form .form-flex #LastName {
     width: 100%; }
   form .button button {
     width: 20%; } }
@@ -258,9 +264,9 @@ form .button {
   .container {
     width: 95%; }
 
-  form .form-flex .name {
+  form .form-flex #FirstName {
     width: 100%; }
-  form .form-flex .mail {
+  form .form-flex #LastName {
     width: 100%; }
   form .button button {
     width: 48%; } }
